@@ -1,0 +1,20 @@
+/* RESET default Vite styles — they were messing layout */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Remove Vite’s forced dark/light mode */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;   /* match your site theme */
+  color: #111;           /* normal text */
+}
+
+/* Remove unwanted flex layout */
+body {
+  display: block !important;
+}
