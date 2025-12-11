@@ -2,6 +2,7 @@ import { useState } from "react";
 import { supabase } from "./supabaseClient";
 import "./styles.css"; 
 
+
 // Components
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
